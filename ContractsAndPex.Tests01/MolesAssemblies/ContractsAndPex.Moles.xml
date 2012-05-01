@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ContractsAndPex.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:ContractsAndPex.Moles.MStringUtility">
+            <summary>Mole type of <see cref="T:ContractsAndPex.StringUtility"/>
+            .</summary>
+        </member>
+        <member name="M:ContractsAndPex.Moles.MStringUtility.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:ContractsAndPex.Moles.MStringUtility.#ctor(ContractsAndPex.StringUtility)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:ContractsAndPex.Moles.MStringUtility.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:ContractsAndPex.Moles.MStringUtility.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.ConstructorString">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.SubStringOnTargetInt32Int32">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.SubStringOnTarget(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.SubStringStringInt32Int32">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.SubString(System.String,System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.TargetGet">
+            <summary>Sets the mole of <see cref="P:ContractsAndPex.StringUtility.Target"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.TargetSetString">
+            <summary>Sets the mole of <see cref="P:ContractsAndPex.StringUtility.Target"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility._InvariantMethod">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.$InvariantMethod$"/>
+            </summary>
+        </member>
+        <member name="T:ContractsAndPex.Moles.MStringUtility.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.AllInstances.SubStringOnTargetInt32Int32">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.SubStringOnTarget(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.AllInstances.SubStringStringInt32Int32">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.SubString(System.String,System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.AllInstances.TargetGet">
+            <summary>Sets the mole of <see cref="P:ContractsAndPex.StringUtility.Target"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.AllInstances.TargetSetString">
+            <summary>Sets the mole of <see cref="P:ContractsAndPex.StringUtility.Target"/>
+            </summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.MStringUtility.AllInstances._InvariantMethod">
+            <summary>Sets the mole of <see cref="M:ContractsAndPex.StringUtility.$InvariantMethod$"/>
+            </summary>
+        </member>
+        <member name="T:ContractsAndPex.Moles.SStringUtility">
+            <summary>Stub type of <see cref="T:ContractsAndPex.StringUtility"/>
+            .</summary>
+        </member>
+        <member name="M:ContractsAndPex.Moles.SStringUtility.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ContractsAndPex.Moles.SStringUtility.InitializeStub">
+            <summary>Initializes a new instance of type SStringUtility</summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.SStringUtility.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ContractsAndPex.Moles.SStringUtility.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
